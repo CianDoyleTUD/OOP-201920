@@ -4,6 +4,7 @@
 #date: 22-09-2018
 #purpose: Lab 1
 
+
 my_variable = 10
 while my_variable < 20:
         i = my_variable
@@ -11,8 +12,9 @@ while my_variable < 20:
                 my_variable +=1
                 print(my_variable)
         else:
-                my_variable = (my_variable + 20)
-                print('new')
+                my_variable = (my_variable + 20) #The bug was here
+                print('new') 
+
 
 
 
